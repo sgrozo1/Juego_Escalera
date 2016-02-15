@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 433778}
+  - 114: {fileID: 11499972}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &433778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11499972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c6a472df543436cb652f82ffc2c07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPlayer: 1
+  specialSlots:
+  - SlotNumber: 3
+    TargetNumber: 21
+    IsLadder: 1
+  - SlotNumber: 8
+    TargetNumber: 30
+    IsLadder: 1
+  - SlotNumber: 28
+    TargetNumber: 84
+    IsLadder: 1
+  - SlotNumber: 58
+    TargetNumber: 77
+    IsLadder: 1
+  - SlotNumber: 75
+    TargetNumber: 86
+    IsLadder: 1
+  - SlotNumber: 80
+    TargetNumber: 100
+    IsLadder: 1
+  - SlotNumber: 90
+    TargetNumber: 91
+    IsLadder: 1
+  - SlotNumber: 97
+    TargetNumber: 79
+    IsLadder: 0
+  - SlotNumber: 95
+    TargetNumber: 51
+    IsLadder: 0
+  - SlotNumber: 88
+    TargetNumber: 18
+    IsLadder: 0
+  - SlotNumber: 62
+    TargetNumber: 22
+    IsLadder: 0
+  - SlotNumber: 57
+    TargetNumber: 40
+    IsLadder: 0
+  - SlotNumber: 52
+    TargetNumber: 29
+    IsLadder: 0
+  - SlotNumber: 17
+    TargetNumber: 13
+    IsLadder: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 179090}
+  m_IsPrefabParent: 1
