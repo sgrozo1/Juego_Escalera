@@ -11,6 +11,6 @@ Otra característica del diseño es que para evitar y mejorar rendimientos evite
 
 Hay un pequeño desgaste de recursos el el event manager que tengo ya que el hace “Boxing” y su correspondiente “Unboxing”. Esto esta marcado dentro del código con un //TODO: para mejorar en el futuro proximo. Igualmente hay otro mas comentarios similares.
 
-El coding esta bien documentado.
+El coding esta bien documentado. Ademas hay html con descripción de las clases y algunos diagramas. Esto esta en "Juego_Escalera/html/index.html".
 
 
